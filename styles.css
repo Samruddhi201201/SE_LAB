@@ -1,0 +1,31 @@
+a:link, a:visited {
+    /* background-color: #b7123e; */
+    background-color: #393646;
+    color: whitesmoke;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  h1{
+    font-size: 40px;
+  }
+  a:hover, a:active {
+    background-color: #F0EEED;
+    color:black;
+  }
+  body{
+    /* background-color: #FFF2F2; */
+    background-image: url(https://img.freepik.com/premium-vector/colored-molecules-modern-graphic-banner-design-mobile_68196-1205.jpg?size=626&ext=jpg&ga=GA1.2.712223589.1683223110&semt=robertav1_2_sidr);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+  }
+  .buttons{
+        padding: 30px;
+        border:60px;
+        height: 40px;
+        width: 300px;
+        border-radius: 5px;
+  }
+ 
