@@ -11,9 +11,9 @@
         width: 800px;
       }
       p {
-        padding-left: 70px;
-        padding-right: 70px;
-        font-size: medium;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: large;
       }
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -21,32 +21,39 @@
       li {
         padding-left: 70px;
       }
+      .outer{
+          background-color: #DFFFD8;
+          margin-left: 100px;
+          margin-right: 100px;
+          padding: 7px;
+          border-radius: 10px;
+      }
     </style>
   </head>
   <body>
     <center><h1>State Diagram</h1></center>
     <center><img src="state.jpg" alt="State diagram" /></center>
-    <p>
-      A state diagram is used to represent the condition of the system or part
-      of the system at finite instances of time. It’s a behavioral diagram and
-      it represents the behavior using finite state transitions. State diagrams
-      are also referred to as State machines and State-chart Diagrams. These
-      terms are often used interchangeably. So simply, a state diagram is used
-      to model the dynamic behavior of a class in response to time and changing
-      external stimuli. We can say that each and every class has a state but we
-      don’t model every class using State diagrams. We prefer to model the
-      states with three or more states.
-      <br />
-      Uses of statechart diagram :–
-      <li>
-        We use it to state the events responsible for change in state (we do not
-        show what processes cause those events)
-      </li>
-      <li>We use it to model the dynamic behavior of the system. <br /></li>
-      <li>
-        To understand the reaction of objects/classes to internal or external
-        stimuli.
-      </li>
-    </p>
+    <div class="outer">
+      <p>
+        A state diagram is used to represent the condition of the system or part
+        of the system at finite instances of time. It’s a behavioral diagram and
+        it represents the behavior using finite state transitions. State diagrams
+        are also referred to as State machines and State-chart Diagrams
+        . So simply, a state diagram is used
+        to model the dynamic behavior of a class in response to time and changing
+        external stimuli. 
+        <br />
+        Uses of statechart diagram :–
+        <li>
+          We use it to state the events responsible for change in state (we do not
+          show what processes cause those events)
+        </li>
+        <li>We use it to model the dynamic behavior of the system. <br /></li>
+        <li>
+          To understand the reaction of objects/classes to internal or external
+          stimuli.
+        </li>
+      </p>
+    </div>
   </body>
 </html>
